@@ -1,2 +1,2 @@
 # leetcode
-leetcode 刷题记录
+一个星期日穿leetcode
