@@ -17,3 +17,7 @@ add_executable(traverse_bst
         tree/binary_search_tree.c
         tree/traverse_bst.c)
 target_link_libraries(traverse_bst  m)
+
+add_executable(fibonacci dynamic_programing/fibonacci.c)
+add_executable(chip_money dynamic_programing/chip_money.c)
+
