@@ -29,6 +29,7 @@ int coinChange(int * coins, int coin_size , int amount) {
                 continue;
             }
 
+            // dp[i] = max(dp[i],dp[i - coins[index_coin]] + 1);
             dp[i] = dp[ i - coins[index_coin] ]  + 1 > dp[i] ? dp[i] : dp[ i - coins[index_coin] ]  + 1;
             index_coin++;
         }
