@@ -20,4 +20,5 @@ target_link_libraries(traverse_bst  m)
 
 add_executable(fibonacci dynamic_programing/fibonacci.c)
 add_executable(chip_money dynamic_programing/chip_money.c)
+add_executable(two_traverse_matrix matrix/two_traverse_matrix.c)
 
